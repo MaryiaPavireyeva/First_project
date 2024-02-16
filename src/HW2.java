@@ -1,13 +1,23 @@
 public class HW2 {
     public static void main(String[] args) {
-        int x = 10;
+        int x = 1;
         int y = 9;
-        if (x > y) {
-            System.out.println(x + " больше " + y);
-        } else if (x < y) {
-            System.out.println(x + " меньше " + y);
-        } else if (x == y) {
-            System.out.println(x + " равны " + y);
-        }
+        //#1
+//        if (x > y) {
+//            System.out.println(x);
+//            } else
+//            System.out.println(y);
+//        //#2
+//        if (x < y) {
+//            System.out.println(x);
+//            } else
+//            System.out.println(y);
+        //#3
+        if (x == 1) {
+            System.out.println("A");
+        } else if (x == 2) {
+            System.out.println("B");
+        } else
+            System.out.println("C");
     }
 }

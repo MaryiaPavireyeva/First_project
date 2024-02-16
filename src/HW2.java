@@ -3,10 +3,11 @@ public class HW2 {
         int x = 10;
         int y = 9;
         if (x > y) {
-            System.out.println(x + ">" + y);
+            System.out.println(x + " больше " + y);
         } else if (x < y) {
-            System.out.println(x + "<" + y);
-        } else
-            System.out.println("nothing");
+            System.out.println(x + " меньше " + y);
+        } else if (x == y) {
+            System.out.println(x + " равны " + y);
+        }
     }
 }
